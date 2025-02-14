@@ -28,7 +28,7 @@ function readUsernamesFromFile(filename) {
         
         Promise.all(usernames.map(username => fetchUserProfile(username))).then(() => {
             console.log("Final user data array:", userDataArray);
-            saveDataToFile("userData.json");
+            saveDataToFile("leetcode_data.json");
         });
     } catch (error) {
         console.error("Error reading usernames from file:", error);
