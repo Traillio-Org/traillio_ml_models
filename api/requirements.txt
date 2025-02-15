@@ -1,4 +1,10 @@
 pip
 flask
 numpy
+sklearn
+pickle
+pandas
+matplotlib
+imblearn
+seaborn
 gunicorn
