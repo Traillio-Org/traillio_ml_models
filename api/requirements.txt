@@ -1,7 +1,7 @@
 pip
 flask
 numpy
-sklearn
+scikit-learn
 pickle
 pandas
 matplotlib
