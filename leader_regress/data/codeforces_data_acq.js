@@ -6,18 +6,11 @@ async function getUserSubmissions(handle) {
         const response = await axios.get(`https://codeforces.com/api/user.status?handle=${handle}`);
         if (response.data.status !== 'OK') throw new Error('Failed to fetch user submissions');
 
-        const oneWeekAgo = Math.floor(Date.now() / 1000) - (7 * 24 * 60 * 60);
-
         // Filter only solved problems (verdict === "OK")
-        const solvedSubmissions = response.data.result.filter(submission => submission.verdict === "OK");
-
-        // Count problems solved in the last week
-        const solvedLastWeek = solvedSubmissions.filter(submission => submission.creationTimeSeconds >= oneWeekAgo).length;
-
-        return { solvedSubmissions, solvedLastWeek };
+        return response.data.result.filter(submission => submission.verdict === "OK");
     } catch (error) {
         console.error(`Error fetching submissions for ${handle}:`, error.message);
-        return { solvedSubmissions: [], solvedLastWeek: 0 };
+        return [];
     }
 }
 
@@ -60,28 +53,54 @@ async function processUsers() {
         const usernames = fs.readFileSync('./data/codeforces_users.txt', 'utf-8').split(/\r?\n/).filter(Boolean);
         const problemRatings = await getProblemRatings();
         const results = [];
+        const oneWeekAgo = Math.floor(Date.now() / 1000) - 7 * 24 * 60 * 60; // Timestamp for 7 days ago
 
         for (const username of usernames) {
             console.log(`Fetching data for: ${username}`);
-            const [{ solvedSubmissions, solvedLastWeek }, userRating] = await Promise.all([
+            const [submissions, userRating] = await Promise.all([
                 getUserSubmissions(username),
                 getUserRating(username)
             ]);
 
-            // Initialize user object with username, rating, and solvedLastWeek
-            const userResult = { username, rating: userRating, solvedLastWeek };
+            let solvedLastWeek = 0;
+            const difficultyCounts = {
+                easy: 0,
+                medium: 0,
+                hard: 0
+            };
 
-            solvedSubmissions.forEach(submission => {
+            submissions.forEach(submission => {
                 const problemKey = `${submission.problem.contestId}${submission.problem.index}`;
                 const rating = problemRatings[problemKey];
 
                 if (rating) {
-                    userResult[rating] = (userResult[rating] || 0) + 1;
+                    if (rating >= 800 && rating <= 1000) {
+                        difficultyCounts.easy++;
+                    } else if (rating > 1000 && rating <= 1400) {
+                        difficultyCounts.medium++;
+                    } else if (rating > 1400) {
+                        difficultyCounts.hard++;
+                    }
+                }
+
+                if (submission.creationTimeSeconds >= oneWeekAgo) {
+                    solvedLastWeek++;
                 }
             });
 
-            if (Object.keys(userResult).length > 3) { // Ensure user has solved problems
-                results.push(userResult);
+            if (difficultyCounts.easy > 0 || difficultyCounts.medium > 0 || difficultyCounts.hard > 0 || solvedLastWeek > 0) {
+                // Construct ordered object
+                const orderedResult = { username, rating: userRating };
+
+                // Add difficulty counts
+                if (difficultyCounts.easy > 0) orderedResult.easy = difficultyCounts.easy;
+                if (difficultyCounts.medium > 0) orderedResult.medium = difficultyCounts.medium;
+                if (difficultyCounts.hard > 0) orderedResult.hard = difficultyCounts.hard;
+
+                // Add solved problems count in the last week
+                orderedResult.solvedLastWeek = solvedLastWeek;
+
+                results.push(orderedResult);
             }
         }
 

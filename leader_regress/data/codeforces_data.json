@@ -1,153 +1,840 @@
 [
   {
-    "800": 112,
-    "900": 26,
-    "1000": 39,
-    "1100": 34,
-    "1200": 42,
-    "1300": 29,
-    "1400": 16,
-    "1500": 7,
-    "1600": 3,
-    "1700": 4,
-    "1800": 2,
-    "1900": 1,
-    "2000": 1,
     "username": "tanishqrathore_07",
     "rating": 922,
+    "easy": 177,
+    "medium": 121,
+    "hard": 18,
     "solvedLastWeek": 6
   },
   {
-    "800": 18,
-    "900": 13,
-    "1000": 18,
-    "1100": 22,
-    "1200": 7,
-    "1300": 2,
     "username": "roysp2003",
     "rating": 1102,
+    "easy": 49,
+    "medium": 31,
     "solvedLastWeek": 6
   },
   {
-    "800": 11,
-    "1100": 1,
-    "1200": 2,
     "username": "kamran-7",
     "rating": 873,
+    "easy": 11,
+    "medium": 3,
     "solvedLastWeek": 3
   },
   {
-    "800": 18,
-    "900": 1,
-    "1100": 1,
-    "1300": 1,
-    "1400": 1,
-    "1600": 1,
-    "1900": 1,
     "username": "coderncm",
     "rating": 1348,
+    "easy": 19,
+    "medium": 3,
+    "hard": 2,
     "solvedLastWeek": 0
   },
   {
-    "800": 131,
-    "900": 18,
-    "1000": 37,
-    "1100": 140,
-    "1200": 123,
-    "1300": 63,
-    "1400": 71,
-    "1500": 56,
-    "1600": 80,
-    "1700": 5,
-    "1800": 3,
-    "1900": 2,
-    "2000": 1,
     "username": "SHUBHAM_SINGH_PATEL__",
     "rating": 1240,
+    "easy": 186,
+    "medium": 397,
+    "hard": 147,
     "solvedLastWeek": 18
   },
   {
-    "800": 111,
-    "900": 21,
-    "1000": 37,
-    "1100": 35,
-    "1200": 52,
-    "1300": 55,
-    "1400": 66,
-    "1500": 60,
-    "1600": 8,
-    "1700": 1,
-    "1800": 1,
-    "1900": 1,
     "username": "sarbojit_007",
     "rating": 1268,
+    "easy": 169,
+    "medium": 208,
+    "hard": 71,
     "solvedLastWeek": 13
   },
   {
-    "800": 34,
-    "900": 2,
-    "1000": 1,
-    "1200": 1,
-    "1400": 1,
-    "2100": 1,
-    "2600": 1,
     "username": "rayyan_78_cfs",
     "rating": 917,
+    "easy": 37,
+    "medium": 2,
+    "hard": 2,
     "solvedLastWeek": 0
   },
   {
-    "800": 145,
-    "900": 27,
-    "1000": 20,
-    "1100": 5,
-    "1200": 8,
-    "1300": 4,
-    "1400": 2,
-    "1500": 1,
     "username": "satyamkesarwani2020",
     "rating": 832,
+    "easy": 192,
+    "medium": 19,
+    "hard": 1,
     "solvedLastWeek": 0
   },
   {
-    "800": 33,
-    "900": 6,
-    "1000": 8,
-    "1100": 1,
     "username": "yaso",
     "rating": 892,
+    "easy": 47,
+    "medium": 1,
     "solvedLastWeek": 4
   },
   {
-    "800": 209,
-    "900": 37,
-    "1000": 63,
-    "1100": 33,
-    "1200": 38,
-    "1300": 21,
-    "1400": 14,
-    "1500": 11,
-    "1600": 2,
-    "1700": 3,
-    "1800": 1,
-    "1900": 1,
     "username": "sakina_khan",
     "rating": 1246,
+    "easy": 309,
+    "medium": 106,
+    "hard": 18,
     "solvedLastWeek": 0
   },
   {
-    "800": 161,
-    "900": 31,
-    "1000": 40,
-    "1100": 47,
-    "1200": 29,
-    "1300": 28,
-    "1400": 18,
-    "1500": 10,
-    "1600": 3,
-    "1700": 4,
-    "1800": 2,
     "username": "sarafarajnasardi",
     "rating": 1309,
+    "easy": 232,
+    "medium": 122,
+    "hard": 19,
     "solvedLastWeek": 0
+  },
+  {
+    "username": "raman_01  ",
+    "rating": 1393,
+    "easy": 27,
+    "medium": 15,
+    "hard": 5,
+    "solvedLastWeek": 8
+  },
+  {
+    "username": "mamut-rahal  ",
+    "rating": 1406,
+    "easy": 141,
+    "medium": 69,
+    "hard": 31,
+    "solvedLastWeek": 24
+  },
+  {
+    "username": "_Mootra_  ",
+    "rating": 1325,
+    "easy": 4,
+    "medium": 1,
+    "hard": 1,
+    "solvedLastWeek": 8
+  },
+  {
+    "username": "blckhat  ",
+    "rating": 1285,
+    "easy": 43,
+    "medium": 40,
+    "hard": 2,
+    "solvedLastWeek": 10
+  },
+  {
+    "username": "PushkarKumar  ",
+    "rating": 1410,
+    "easy": 237,
+    "medium": 269,
+    "hard": 198,
+    "solvedLastWeek": 16
+  },
+  {
+    "username": "kido2006  ",
+    "rating": 1159,
+    "easy": 8,
+    "medium": 3,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "alireza2856  ",
+    "rating": 1765,
+    "easy": 141,
+    "medium": 143,
+    "hard": 328,
+    "solvedLastWeek": 5
+  },
+  {
+    "username": "Roushan_Gupta7  ",
+    "rating": 753,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "ChiefNing#  ",
+    "rating": 1514,
+    "easy": 257,
+    "medium": 179,
+    "hard": 90,
+    "solvedLastWeek": 18
+  },
+  {
+    "username": "baolam1202  ",
+    "rating": 1416,
+    "easy": 178,
+    "medium": 64,
+    "hard": 28,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "Werdnight  ",
+    "rating": 1524,
+    "easy": 238,
+    "medium": 191,
+    "hard": 164,
+    "solvedLastWeek": 15
+  },
+  {
+    "username": "1.98Pi  ",
+    "rating": 1416,
+    "easy": 12,
+    "medium": 6,
+    "hard": 2,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "MagedSayed  ",
+    "rating": 1423,
+    "easy": 456,
+    "medium": 291,
+    "hard": 143,
+    "solvedLastWeek": 17
+  },
+  {
+    "username": "Om_dingdong  ",
+    "rating": 1278,
+    "easy": 66,
+    "medium": 29,
+    "hard": 13,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "soldierXboy  ",
+    "rating": 1355,
+    "easy": 22,
+    "medium": 19,
+    "hard": 1,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "foranshu22  ",
+    "rating": 1335,
+    "easy": 40,
+    "medium": 21,
+    "hard": 4,
+    "solvedLastWeek": 9
+  },
+  {
+    "username": "Kushi  ",
+    "rating": 1564,
+    "easy": 300,
+    "medium": 266,
+    "hard": 304,
+    "solvedLastWeek": 21
+  },
+  {
+    "username": "rakun45  ",
+    "rating": 1483,
+    "easy": 142,
+    "medium": 107,
+    "hard": 49,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "eldenlord  ",
+    "rating": 1363,
+    "easy": 53,
+    "medium": 34,
+    "hard": 41,
+    "solvedLastWeek": 13
+  },
+  {
+    "username": "ashab.tanim  ",
+    "rating": 1227,
+    "easy": 328,
+    "medium": 79,
+    "hard": 5,
+    "solvedLastWeek": 10
+  },
+  {
+    "username": "SigmaCoderNo1  ",
+    "rating": 1265,
+    "easy": 2,
+    "solvedLastWeek": 12
+  },
+  {
+    "username": "zy_sy  ",
+    "rating": 1326,
+    "easy": 48,
+    "medium": 31,
+    "hard": 23,
+    "solvedLastWeek": 8
+  },
+  {
+    "username": "ConsW  ",
+    "rating": 1444,
+    "easy": 92,
+    "medium": 65,
+    "hard": 31,
+    "solvedLastWeek": 6
+  },
+  {
+    "username": "abhi2703  ",
+    "rating": 1383,
+    "easy": 93,
+    "medium": 48,
+    "hard": 11,
+    "solvedLastWeek": 9
+  },
+  {
+    "username": "lesgolego  ",
+    "rating": 1589,
+    "easy": 18,
+    "medium": 18,
+    "hard": 15,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "IXRaiden  ",
+    "rating": 949,
+    "solvedLastWeek": 10
+  },
+  {
+    "username": "based#  ",
+    "rating": 1625,
+    "easy": 292,
+    "medium": 199,
+    "hard": 124,
+    "solvedLastWeek": 23
+  },
+  {
+    "username": "codewithabhishek  ",
+    "rating": 1233,
+    "easy": 161,
+    "medium": 141,
+    "hard": 145,
+    "solvedLastWeek": 11
+  },
+  {
+    "username": "Adityaa_2811  ",
+    "rating": 1423,
+    "easy": 18,
+    "medium": 6,
+    "hard": 2,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "sidmt  ",
+    "rating": 1533,
+    "easy": 22,
+    "medium": 14,
+    "hard": 17,
+    "solvedLastWeek": 22
+  },
+  {
+    "username": "skp0114#  ",
+    "rating": 1227,
+    "easy": 67,
+    "medium": 8,
+    "solvedLastWeek": 8
+  },
+  {
+    "username": "Okahak71  ",
+    "rating": 1287,
+    "easy": 100,
+    "medium": 36,
+    "hard": 7,
+    "solvedLastWeek": 20
+  },
+  {
+    "username": "mananaggarwal3  ",
+    "rating": 1132,
+    "easy": 69,
+    "medium": 72,
+    "hard": 10,
+    "solvedLastWeek": 15
+  },
+  {
+    "username": "trainingycopa  ",
+    "rating": 884,
+    "easy": 24,
+    "medium": 22,
+    "hard": 14,
+    "solvedLastWeek": 25
+  },
+  {
+    "username": "sn0vvl4nd3r  ",
+    "rating": 1358,
+    "easy": 54,
+    "medium": 10,
+    "hard": 8,
+    "solvedLastWeek": 34
+  },
+  {
+    "username": "Hashim-Ali  ",
+    "rating": 1724,
+    "easy": 349,
+    "medium": 260,
+    "hard": 231,
+    "solvedLastWeek": 12
+  },
+  {
+    "username": "Christine-  ",
+    "rating": 1578,
+    "easy": 121,
+    "medium": 116,
+    "hard": 210,
+    "solvedLastWeek": 32
+  },
+  {
+    "username": "akshatgarg715  ",
+    "rating": 1286,
+    "easy": 12,
+    "medium": 2,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "magancodes  ",
+    "rating": 1046,
+    "easy": 8,
+    "medium": 3,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "ashutoshkr24012001  ",
+    "rating": 1257,
+    "easy": 42,
+    "medium": 9,
+    "hard": 1,
+    "solvedLastWeek": 4
+  },
+  {
+    "username": "BhaviG  ",
+    "rating": 1272,
+    "easy": 112,
+    "medium": 22,
+    "hard": 1,
+    "solvedLastWeek": 9
+  },
+  {
+    "username": "prtxdongare  ",
+    "rating": 1341,
+    "easy": 439,
+    "medium": 282,
+    "hard": 63,
+    "solvedLastWeek": 20
+  },
+  {
+    "username": "maninfear  ",
+    "rating": 1248,
+    "easy": 5,
+    "medium": 3,
+    "hard": 1,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "beunique18  ",
+    "rating": 1473,
+    "easy": 239,
+    "medium": 46,
+    "hard": 18,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "notboruto  ",
+    "rating": 1412,
+    "easy": 34,
+    "medium": 10,
+    "hard": 5,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "y6692789  ",
+    "rating": 1384,
+    "easy": 126,
+    "medium": 70,
+    "hard": 4,
+    "solvedLastWeek": 10
+  },
+  {
+    "username": "miguel020  ",
+    "rating": 960,
+    "solvedLastWeek": 9
+  },
+  {
+    "username": "Dr_Zhang  ",
+    "rating": 1438,
+    "easy": 44,
+    "medium": 43,
+    "hard": 51,
+    "solvedLastWeek": 7
+  },
+  {
+    "username": "drizzydrake  ",
+    "rating": 1307,
+    "easy": 37,
+    "medium": 14,
+    "hard": 2,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "agnwham#  ",
+    "rating": 361,
+    "easy": 1,
+    "medium": 3,
+    "hard": 47,
+    "solvedLastWeek": 2
+  },
+  {
+    "username": "ilefbenrahma  ",
+    "rating": 1472,
+    "easy": 323,
+    "medium": 252,
+    "hard": 286,
+    "solvedLastWeek": 8
+  },
+  {
+    "username": "_Andrews_  ",
+    "rating": 1337,
+    "easy": 30,
+    "medium": 9,
+    "hard": 14,
+    "solvedLastWeek": 15
+  },
+  {
+    "username": "addymaroon  ",
+    "rating": 1193,
+    "easy": 29,
+    "medium": 19,
+    "hard": 1,
+    "solvedLastWeek": 9
+  },
+  {
+    "username": "_spider__  ",
+    "rating": 1265,
+    "easy": 117,
+    "medium": 144,
+    "hard": 44,
+    "solvedLastWeek": 39
+  },
+  {
+    "username": "d7xy7  ",
+    "rating": 1342,
+    "easy": 95,
+    "medium": 40,
+    "hard": 15,
+    "solvedLastWeek": 9
+  },
+  {
+    "username": "hyenje29  ",
+    "rating": 1356,
+    "easy": 74,
+    "medium": 50,
+    "hard": 13,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "Yooussef  ",
+    "rating": 1485,
+    "easy": 538,
+    "medium": 355,
+    "hard": 357,
+    "solvedLastWeek": 23
+  },
+  {
+    "username": "alishad9335  ",
+    "rating": 1342,
+    "easy": 10,
+    "solvedLastWeek": 10
+  },
+  {
+    "username": "negga  ",
+    "rating": 1172,
+    "easy": 2,
+    "medium": 1,
+    "hard": 1,
+    "solvedLastWeek": 12
+  },
+  {
+    "username": "TrevPeak#  ",
+    "rating": 1541,
+    "easy": 39,
+    "medium": 27,
+    "hard": 9,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "pablo4  ",
+    "rating": 793,
+    "medium": 1,
+    "solvedLastWeek": 2
+  },
+  {
+    "username": "santhoshkumarsp222004  ",
+    "rating": 1225,
+    "easy": 8,
+    "medium": 4,
+    "hard": 2,
+    "solvedLastWeek": 2
+  },
+  {
+    "username": "sanjay17  ",
+    "rating": 1285,
+    "easy": 94,
+    "medium": 146,
+    "hard": 19,
+    "solvedLastWeek": 34
+  },
+  {
+    "username": "prashant_1609  ",
+    "rating": 1212,
+    "easy": 80,
+    "medium": 11,
+    "hard": 5,
+    "solvedLastWeek": 12
+  },
+  {
+    "username": "minhhieu-k18  ",
+    "rating": 1261,
+    "easy": 72,
+    "medium": 10,
+    "hard": 2,
+    "solvedLastWeek": 7
+  },
+  {
+    "username": "dchipher04  ",
+    "rating": 1044,
+    "easy": 22,
+    "medium": 19,
+    "hard": 46,
+    "solvedLastWeek": 1
+  },
+  {
+    "username": "MJSaif  ",
+    "rating": 1356,
+    "easy": 274,
+    "medium": 311,
+    "hard": 190,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "gmmaster  ",
+    "rating": 1539,
+    "easy": 16,
+    "medium": 18,
+    "hard": 40,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "_anubhav_38  ",
+    "rating": 1392,
+    "easy": 164,
+    "medium": 161,
+    "hard": 50,
+    "solvedLastWeek": 17
+  },
+  {
+    "username": "Salazar  ",
+    "rating": 1351,
+    "easy": 282,
+    "medium": 134,
+    "hard": 27,
+    "solvedLastWeek": 12
+  },
+  {
+    "username": "matinanad  ",
+    "rating": 1395,
+    "easy": 67,
+    "medium": 65,
+    "hard": 75,
+    "solvedLastWeek": 17
+  },
+  {
+    "username": "shivank_dixit  ",
+    "rating": 1221,
+    "easy": 436,
+    "medium": 408,
+    "hard": 130,
+    "solvedLastWeek": 13
+  },
+  {
+    "username": "algohary  ",
+    "rating": 1604,
+    "easy": 413,
+    "medium": 532,
+    "hard": 995,
+    "solvedLastWeek": 44
+  },
+  {
+    "username": "Divyansh1551  ",
+    "rating": 1324,
+    "easy": 140,
+    "medium": 199,
+    "hard": 5,
+    "solvedLastWeek": 22
+  },
+  {
+    "username": "a_simple_boi  ",
+    "rating": 1306,
+    "easy": 135,
+    "medium": 35,
+    "hard": 4,
+    "solvedLastWeek": 19
+  },
+  {
+    "username": "Gaurav_Rwt  ",
+    "rating": 1243,
+    "easy": 37,
+    "medium": 4,
+    "solvedLastWeek": 3
+  },
+  {
+    "username": "mhqq123",
+    "rating": 660,
+    "easy": 4,
+    "medium": 1,
+    "solvedLastWeek": 11
+  },
+  {
+    "username": "Morisz10",
+    "rating": 2156,
+    "easy": 138,
+    "medium": 76,
+    "hard": 131,
+    "solvedLastWeek": 6
+  },
+  {
+    "username": "Wxssim",
+    "rating": 2135,
+    "easy": 1014,
+    "medium": 813,
+    "hard": 1430,
+    "solvedLastWeek": 24
+  },
+  {
+    "username": "hkoasis8",
+    "rating": 1450,
+    "easy": 15,
+    "medium": 8,
+    "hard": 16,
+    "solvedLastWeek": 9
+  },
+  {
+    "username": "Aurora14526",
+    "rating": 1286,
+    "hard": 27,
+    "solvedLastWeek": 7
+  },
+  {
+    "username": "shardulisgapryongkim",
+    "rating": 1775,
+    "easy": 9,
+    "medium": 7,
+    "hard": 17,
+    "solvedLastWeek": 29
+  },
+  {
+    "username": "igAC",
+    "rating": 2120,
+    "easy": 21,
+    "medium": 9,
+    "hard": 73,
+    "solvedLastWeek": 6
+  },
+  {
+    "username": "byteplay_studios",
+    "rating": 882,
+    "solvedLastWeek": 6
+  },
+  {
+    "username": "Code937",
+    "rating": 2152,
+    "easy": 1140,
+    "medium": 950,
+    "hard": 2787,
+    "solvedLastWeek": 38
+  },
+  {
+    "username": "bdyby1009",
+    "rating": 1357,
+    "solvedLastWeek": 14
+  },
+  {
+    "username": "goncharovmike",
+    "rating": 2108,
+    "easy": 284,
+    "medium": 207,
+    "hard": 214,
+    "solvedLastWeek": 5
+  },
+  {
+    "username": "Hirui_no_nai-Ayush",
+    "rating": 1725,
+    "solvedLastWeek": 15
+  },
+  {
+    "username": "vin_esh_32",
+    "rating": 1781,
+    "easy": 9,
+    "medium": 2,
+    "solvedLastWeek": 6
+  },
+  {
+    "username": "AmmarAhmedTheSaviour",
+    "rating": 1221,
+    "easy": 1,
+    "solvedLastWeek": 12
+  },
+  {
+    "username": "XanhSMXinChao",
+    "rating": 1637,
+    "easy": 36,
+    "medium": 8,
+    "solvedLastWeek": 11
+  },
+  {
+    "username": "huytriet210",
+    "rating": 1860,
+    "easy": 10,
+    "medium": 8,
+    "hard": 9,
+    "solvedLastWeek": 18
+  },
+  {
+    "username": "Nathako9n",
+    "rating": 843,
+    "medium": 6,
+    "hard": 11,
+    "solvedLastWeek": 13
+  },
+  {
+    "username": "zwezdinv",
+    "rating": 1931,
+    "easy": 293,
+    "medium": 182,
+    "hard": 536,
+    "solvedLastWeek": 6
+  },
+  {
+    "username": "KitKat_Cat",
+    "rating": 1582,
+    "easy": 4,
+    "medium": 1,
+    "solvedLastWeek": 7
+  },
+  {
+    "username": "Utsav_Kashyap",
+    "rating": 1905,
+    "easy": 15,
+    "medium": 9,
+    "hard": 8,
+    "solvedLastWeek": 16
+  },
+  {
+    "username": "Santhoshreddy18",
+    "rating": 1698,
+    "easy": 2,
+    "medium": 1,
+    "solvedLastWeek": 14
+  },
+  {
+    "username": "nguyennhat182006",
+    "rating": 1517,
+    "easy": 44,
+    "medium": 41,
+    "hard": 8,
+    "solvedLastWeek": 13
+  },
+  {
+    "username": "Overlord993",
+    "rating": 2002,
+    "easy": 200,
+    "medium": 97,
+    "hard": 65,
+    "solvedLastWeek": 13
   }
 ]
