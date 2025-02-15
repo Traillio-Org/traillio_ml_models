@@ -2,9 +2,7 @@ pip
 flask
 numpy
 scikit-learn
-pickle
 pandas
 matplotlib
 imblearn
 seaborn
-gunicorn
